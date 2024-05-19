@@ -1,0 +1,1012 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.48f1 (b805b124c6b7) revision 12060081'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15775 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2020.3.48f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ASUS/Documents/GitHub/2118105_PRAK_ANIGAME/BAB7/Tugas7
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62861
+Successfully changed project path to: C:/Users/ASUS/Documents/GitHub/2118105_PRAK_ANIGAME/BAB7/Tugas7
+C:/Users/ASUS/Documents/GitHub/2118105_PRAK_ANIGAME/BAB7/Tugas7
+Using Asset Import Pipeline V2.
+Player connection [16500] Host "[IP] 192.168.0.104 [Port] 805523808 [Flags] 2 [Guid] 375614852 [EditorId] 375614852 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V88TBSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16500] Host "[IP] 192.168.0.104 [Port] 805523808 [Flags] 2 [Guid] 375614852 [EditorId] 375614852 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V88TBSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 93.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.48f1 (b805b124c6b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.48f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ASUS/Documents/GitHub/2118105_PRAK_ANIGAME/BAB7/Tugas7/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   
+    VRAM:     7887 MB
+    Driver:   30.0.13044.3001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.48f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.48f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.48f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002777 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 119.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.540 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1541ms)
+		BeginReloadAssembly (293ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (963ms)
+			LoadAssemblies (291ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 69.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1336ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1073ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (404ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2014 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.5 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2448.
+Total: 6.267500 ms (FindLiveObjects: 0.282800 ms CreateObjectMapping: 0.093800 ms MarkObjects: 5.545300 ms  DeleteObjects: 0.343200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Game UI/PNG/btn/music_off.png
+  artifactKey: Guid(12b4f12ad9158e1498c7c62effd2fed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/music_off.png using Guid(12b4f12ad9158e1498c7c62effd2fed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bba1f398446cc2f91bc4a905713c5b') in 0.205895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Game UI/PNG/bubble/bg.png
+  artifactKey: Guid(a4ed39502bdb77849b69e171234ce558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/bg.png using Guid(a4ed39502bdb77849b69e171234ce558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33176cf96e021f6aa6daf89854b3b3e0') in 0.058636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000625 seconds.
+  path: Assets/Game UI/PNG/btn/misic.png
+  artifactKey: Guid(5ae2479ed650bb84b9fe4260eb06410f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/misic.png using Guid(5ae2479ed650bb84b9fe4260eb06410f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78743b851c0cd573e46ded6b427c2827') in 0.032333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Game UI/PNG/btn/shop.png
+  artifactKey: Guid(4a2506dfde048804eb08e25b4aca38a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/shop.png using Guid(4a2506dfde048804eb08e25b4aca38a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94040c185ecc84dd607fa4b06fb730e7') in 0.037831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Game UI/PNG/bubble/level.png
+  artifactKey: Guid(b70f059fe60a0b24987ea3ee0a50a2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/level.png using Guid(b70f059fe60a0b24987ea3ee0a50a2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e172f45763b931ae313adcabb26e5a51') in 0.030152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Game UI/PNG/bubble/7.png
+  artifactKey: Guid(e038b0f6f24a343499df5202b0a542a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/7.png using Guid(e038b0f6f24a343499df5202b0a542a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c8e86564b1ac64df415ab5542d0741') in 0.032347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Game UI/PNG/bubble/btn_1.png
+  artifactKey: Guid(b4168d815da9eab4f86524dae5298874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/btn_1.png using Guid(b4168d815da9eab4f86524dae5298874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c674dc3c7f19043743f8822558209fc') in 0.035403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Game UI/PNG/btn/upgrade.png
+  artifactKey: Guid(cd2bb0bdcdb461f4b918aec91e12aba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/upgrade.png using Guid(cd2bb0bdcdb461f4b918aec91e12aba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2cfd0f86392a3e7955ee7db283178b') in 0.035264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Game UI/PNG/btn/close.png
+  artifactKey: Guid(1f20aa03d85e74b4a8f4072e092c8b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/close.png using Guid(1f20aa03d85e74b4a8f4072e092c8b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2beb6ff6ac152f647abe9e7b0d22545') in 0.034907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Game UI/PNG/btn/faq.png
+  artifactKey: Guid(b1c5957d3ab51cf4db886d91b4e22895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/faq.png using Guid(b1c5957d3ab51cf4db886d91b4e22895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20057fff309cfa59fdcaa6b380f18b4') in 0.035608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Game UI/PNG/btn/prew.png
+  artifactKey: Guid(c65742c36367102418c41d4f54ec9474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/prew.png using Guid(c65742c36367102418c41d4f54ec9474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79eb98d17b65bcc3ac79b40abba0cb48') in 0.050173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Game UI/PNG/bubble/up.png
+  artifactKey: Guid(efdd0a90814b1b848a1ea4885d44bf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/up.png using Guid(efdd0a90814b1b848a1ea4885d44bf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fde1cd1ffa6d7b3aa43249dd4c9438') in 0.041279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Game UI/PNG/btn/settings.png
+  artifactKey: Guid(e829a927e645b7449b3afbe58ca8b290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/settings.png using Guid(e829a927e645b7449b3afbe58ca8b290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ebc059f5594b0bfd7f28cba2d7d8d8') in 0.045961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Game UI/PNG/bubble/star_2.png
+  artifactKey: Guid(284858747699b9f4993f3cc515ad6639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/star_2.png using Guid(284858747699b9f4993f3cc515ad6639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a079eec92b0831513e7f1ee28aa68dd0') in 0.035668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Game UI/PNG/btn/next.png
+  artifactKey: Guid(41a13503af297714083dd6d96b434780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/next.png using Guid(41a13503af297714083dd6d96b434780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38df60a413dbb38543c073901969b6e1') in 0.037694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Game UI/PNG/btn/ok.png
+  artifactKey: Guid(328b685a42708d54faaa70cc4009913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/ok.png using Guid(328b685a42708d54faaa70cc4009913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153c5d7412e4b406d0a093238ed74be1') in 0.039668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Game UI/PNG/btn/prize.png
+  artifactKey: Guid(988187d4d0dbc3d429a632005e087a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/prize.png using Guid(988187d4d0dbc3d429a632005e087a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0147c51a58afc0fb8204f8b4315a64dd') in 0.035423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Game UI/PNG/btn/sound.png
+  artifactKey: Guid(7c5082a42ed15ff429c6e4adc7174a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/sound.png using Guid(7c5082a42ed15ff429c6e4adc7174a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621456ad122c8167777df5798b7d819f') in 0.038850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Game UI/PNG/bubble/down.png
+  artifactKey: Guid(32007e44105dd334d941d3b9551cf2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/down.png using Guid(32007e44105dd334d941d3b9551cf2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15ffd408f71fceeb9bf86586738a259') in 0.035961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/Game UI/PNG/btn/play.png
+  artifactKey: Guid(9c8c86304743ab14a8e3285c27d30178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/play.png using Guid(9c8c86304743ab14a8e3285c27d30178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f4fb9c02f3735ded1c94aef496cc57') in 0.029656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Game UI/PNG/bubble/star_3.png
+  artifactKey: Guid(d0264b790f61a0148865a22563f5c706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/star_3.png using Guid(d0264b790f61a0148865a22563f5c706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d0bdd6ca9005245931ea343e0a7b88') in 0.036195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Game UI/PNG/bubble/bgload.png
+  artifactKey: Guid(9b3efba8aa4043847b752afd6c4eb6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/bgload.png using Guid(9b3efba8aa4043847b752afd6c4eb6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a35bf7a1a9d5582f73bdecf9e1b8539') in 0.034359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Game UI/PNG/btn/sound_off.png
+  artifactKey: Guid(ea4a420c33d2036439502afceb43f575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/sound_off.png using Guid(ea4a420c33d2036439502afceb43f575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f279b7c78d103c96ccf963132719f108') in 0.030300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Game UI/PNG/btn/menu.png
+  artifactKey: Guid(995791f73dd1c0a418ccea63115c6ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/menu.png using Guid(995791f73dd1c0a418ccea63115c6ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a721d6e092e58cd938ef73b43170461') in 0.042687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Game UI/PNG/bubble/clock.png
+  artifactKey: Guid(bb1cb2466ebc2824eb398895ac90bd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/clock.png using Guid(bb1cb2466ebc2824eb398895ac90bd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdde070d6c9a69c903138a9dfa0dce03') in 0.035049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Game UI/PNG/bubble/8.png
+  artifactKey: Guid(270a927895272654a94b4045fee52a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/8.png using Guid(270a927895272654a94b4045fee52a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0e45371e3ecb34eff2cd025a505996') in 0.041952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Game UI/PNG/btn/about.png
+  artifactKey: Guid(308a41ce099f19348a4eb6e18f730aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/about.png using Guid(308a41ce099f19348a4eb6e18f730aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db7b60335ec069adff4b0b05bfccd90') in 0.036811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Game UI/PNG/btn/restart.png
+  artifactKey: Guid(9d0a08b27734fe641ab180508de056d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/restart.png using Guid(9d0a08b27734fe641ab180508de056d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9442ae54ff2a7f787e3d01eb3b6ce038') in 0.055100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Game UI/PNG/bubble/9.png
+  artifactKey: Guid(c463197ad0eac974a892348038aab003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/9.png using Guid(c463197ad0eac974a892348038aab003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb114faa074735cc05ca423133a0482b') in 0.035189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Game UI/PNG/bubble/load.png
+  artifactKey: Guid(a458c431145f1af43852bb0b3c172b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/load.png using Guid(a458c431145f1af43852bb0b3c172b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08129406c7cfdaf41802b48931ce841') in 0.031767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Game UI/PNG/btn/pause.png
+  artifactKey: Guid(f92c8cab60309564b8a938281c6506c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/pause.png using Guid(f92c8cab60309564b8a938281c6506c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed0504f15c3e4e56a6ea6ca14c97b1b') in 0.035363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Game UI/PNG/bubble/pause.png
+  artifactKey: Guid(72a30b5567682b148b36d8f595b4b7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/pause.png using Guid(72a30b5567682b148b36d8f595b4b7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3371fbc9e6376fc2457df7c2c5a99a') in 0.037544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Game UI/PNG/btn/leader.png
+  artifactKey: Guid(d070ac93b6e5f8f41b755f0b4dfbbfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/leader.png using Guid(d070ac93b6e5f8f41b755f0b4dfbbfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f864bd29b8b842174f0ef767425b319a') in 0.034614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Game UI/PNG/btn/01.png
+  artifactKey: Guid(46845663ef154f84582216629185b2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/01.png using Guid(46845663ef154f84582216629185b2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc901bb9bc777b63f1132b9cd892910') in 0.036905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Game UI/PNG/bubble/table.png
+  artifactKey: Guid(06a9beb6b9f49754b8f3bab018e85f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/table.png using Guid(06a9beb6b9f49754b8f3bab018e85f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1829601439b56a77593c5b90a3b8ea94') in 0.036385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Game UI/PNG/bubble/star_1.png
+  artifactKey: Guid(a117066785d7d414d9b0ceccb876034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/star_1.png using Guid(a117066785d7d414d9b0ceccb876034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5e60a20be83ade21d810b473a2fc87') in 0.036275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Game UI/PNG/btn/close_2.png
+  artifactKey: Guid(3a151fd13569bf745b083efa3eabee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/btn/close_2.png using Guid(3a151fd13569bf745b083efa3eabee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8352cbeb002482654764f7f2eed96c1') in 0.033196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.563321 seconds.
+  path: Assets/Game UI/PNG/clouds/1.png
+  artifactKey: Guid(243690c6878c8e74bba891c7e2e36683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/clouds/1.png using Guid(243690c6878c8e74bba891c7e2e36683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2474a1f07b333ad73a6bba651bc342a1') in 0.041172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Game UI/PNG/clouds/4.png
+  artifactKey: Guid(86599540da508c5418f18d838476c037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/clouds/4.png using Guid(86599540da508c5418f18d838476c037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd91d8536dfeb4ed8cb8f37207aa950e') in 0.042439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Game UI/PNG/clouds/3.png
+  artifactKey: Guid(d10aa33bad7dd9d468ae41f05ff4cfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/clouds/3.png using Guid(d10aa33bad7dd9d468ae41f05ff4cfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19439d2c5f1e6d3ed3d11c6edeaaf0c6') in 0.037469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Game UI/PNG/clouds/2.png
+  artifactKey: Guid(f4c96c0a46f9db44590b5479bfae8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/clouds/2.png using Guid(f4c96c0a46f9db44590b5479bfae8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36799a8efeeda871d947bd86c435571') in 0.052371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.407341 seconds.
+  path: Assets/Game UI/PNG/bubble/0.png
+  artifactKey: Guid(5b7749abfccde8c43b18f1727515facd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/0.png using Guid(5b7749abfccde8c43b18f1727515facd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448adc6e27cbcbbdf3a46fcdd2085fb4') in 0.041273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Game UI/PNG/bubble/6.png
+  artifactKey: Guid(d938f991ff48e1e4eb2c9e96fc3a9437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/6.png using Guid(d938f991ff48e1e4eb2c9e96fc3a9437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b948ac26cbd0f5fcf3fa93c12aee6b22') in 0.037191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Game UI/PNG/bubble/4.png
+  artifactKey: Guid(66e9d5b86dcba5445b21421c5058b865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/4.png using Guid(66e9d5b86dcba5445b21421c5058b865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2777b0ae22eba6354b6290fdf8b27fa4') in 0.036228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Game UI/PNG/bubble/3.png
+  artifactKey: Guid(351233e53acfcbf4ea71e3ca8b835b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/3.png using Guid(351233e53acfcbf4ea71e3ca8b835b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa841af50588d485ec83783c0a78de0d') in 0.034067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Game UI/PNG/bubble/5.png
+  artifactKey: Guid(b84ab7b81cbd23b48b5958ac3dafbc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/5.png using Guid(b84ab7b81cbd23b48b5958ac3dafbc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a923a01e2c4d8da826a9d36fb12bd42') in 0.033656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Game UI/PNG/bubble/2.png
+  artifactKey: Guid(4792953a39b89d04292a711558ee74a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/2.png using Guid(4792953a39b89d04292a711558ee74a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000e155abd0301d2f7b727e9263c9926') in 0.041265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Game UI/PNG/bubble/1.png
+  artifactKey: Guid(f4385486fa0090840ba799f34756b89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/bubble/1.png using Guid(f4385486fa0090840ba799f34756b89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b80dd45269f3dd91e5d93c7407c339') in 0.072275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.765737 seconds.
+  path: Assets/Game UI/PNG/level_select/bg.png
+  artifactKey: Guid(5f0d5430d6f943a4583cb1251840f3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/level_select/bg.png using Guid(5f0d5430d6f943a4583cb1251840f3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9311ae4021a54c4f355b106b6ed579') in 0.116293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Game UI/PNG/level_select/close_2.png
+  artifactKey: Guid(32f3c791ee41a3e4296773e88b99a6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/level_select/close_2.png using Guid(32f3c791ee41a3e4296773e88b99a6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27d0882e085d6c130b0422cc7d03e6b') in 0.027486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Game UI/PNG/level_select/star_2.png
+  artifactKey: Guid(3d83e156db97c3149ad49dc2479d715f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/level_select/star_2.png using Guid(3d83e156db97c3149ad49dc2479d715f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17988a5fa0f8f5613badb4b0ab12b0ba') in 0.041901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Game UI/PNG/level_select/header.png
+  artifactKey: Guid(2c3414c95883cb047bbdc50bdd3475ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/level_select/header.png using Guid(2c3414c95883cb047bbdc50bdd3475ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ee0c0fd12e19ec5ab2604187afc7b8') in 0.047287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Game UI/PNG/level_select/dot_d.png
+  artifactKey: Guid(a6a94cc2079d9fe43af7a575e2741340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/level_select/dot_d.png using Guid(a6a94cc2079d9fe43af7a575e2741340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3df2402a049eb2d025e30495dc5be4b') in 0.047325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Game UI/PNG/level_select/star_3.png
+  artifactKey: Guid(7252e155cdf18f6499003667cb863364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/level_select/star_3.png using Guid(7252e155cdf18f6499003667cb863364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e87e9783ae951bdd5a70f9441995cd2') in 0.036001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Game UI/PNG/level_select/star_4.png
+  artifactKey: Guid(18327a211949f1c4aa804491bd3f753f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/level_select/star_4.png using Guid(18327a211949f1c4aa804491bd3f753f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b51910176bc2f61ab69d3b71ab592a8') in 0.039513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Game UI/PNG/level_select/table.png
+  artifactKey: Guid(4b7d0fe4678b388448cf212ba5abea53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/level_select/table.png using Guid(4b7d0fe4678b388448cf212ba5abea53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385fdb582eba538abd2c3bddbd9a3329') in 0.037906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Game UI/PNG/level_select/star_1.png
+  artifactKey: Guid(19df6a72d9d27264a8a19ffff72b0ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/level_select/star_1.png using Guid(19df6a72d9d27264a8a19ffff72b0ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169c14d96e1cd58f108617d19a01beb2') in 0.040675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Game UI/PNG/level_select/lock.png
+  artifactKey: Guid(02e300c4dfc9660458da538ac8175883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/level_select/lock.png using Guid(02e300c4dfc9660458da538ac8175883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d053bb4c0e623fb6264d2b45c5babec') in 0.035184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Game UI/PNG/level_select/table2.png
+  artifactKey: Guid(982878bee11bc02449c2c01b7c568893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/level_select/table2.png using Guid(982878bee11bc02449c2c01b7c568893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8728a60e3a0f5dd739d8d8c592b6263a') in 0.051563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Game UI/PNG/level_select/dot_a.png
+  artifactKey: Guid(ea72d81bec6a6714f9b34ff8e482aa5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/level_select/dot_a.png using Guid(ea72d81bec6a6714f9b34ff8e482aa5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de7cffa2c5f40a9b0edbfac353c5df9') in 0.036854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.354839 seconds.
+  path: Assets/Game UI/PNG/load_bar/1.png
+  artifactKey: Guid(4eac538f23ed51c4c9123a99458c5a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/load_bar/1.png using Guid(4eac538f23ed51c4c9123a99458c5a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9107583f72d0179242f710e4e00da36d') in 0.054814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Game UI/PNG/load_bar/bg.png
+  artifactKey: Guid(7fc61b62fef193a4d9e7c3b71b15a198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/load_bar/bg.png using Guid(7fc61b62fef193a4d9e7c3b71b15a198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d59b60e5dcb128fc32865f07f6c31b') in 0.034597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Game UI/PNG/load_bar/text.png
+  artifactKey: Guid(de2fdea418b380d4ab7ef83d97ae5814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/load_bar/text.png using Guid(de2fdea418b380d4ab7ef83d97ae5814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd16bd38cfbbc36d08fa7d003bb3990') in 0.032518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Game UI/PNG/load_bar/3.png
+  artifactKey: Guid(8e997f304c8d6ee4fa38589b94bcb4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/load_bar/3.png using Guid(8e997f304c8d6ee4fa38589b94bcb4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327a093c8c8acfea70142f2990f55205') in 0.044953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Game UI/PNG/load_bar/2.png
+  artifactKey: Guid(13638a31c67fa084681002c3e187c295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/load_bar/2.png using Guid(13638a31c67fa084681002c3e187c295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f139fa3dd442cd8bcc3c0353e4508e1d') in 0.035930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.250554 seconds.
+  path: Assets/Game UI/PNG/match3/bgload.png
+  artifactKey: Guid(45d89bb03c8b4604b9056a4d05619b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/match3/bgload.png using Guid(45d89bb03c8b4604b9056a4d05619b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd3c6ff9f835594383ad1413bc21fa8') in 0.049447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Game UI/PNG/match3/star_3.png
+  artifactKey: Guid(6151feb1bcd3acc49b1d83dbb09e0788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/match3/star_3.png using Guid(6151feb1bcd3acc49b1d83dbb09e0788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90636099479dc15760ac7e5e3bfe5bf') in 0.033414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Game UI/PNG/match3/table_1.png
+  artifactKey: Guid(9316d84b0d4aa524183173e9a4519469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/match3/table_1.png using Guid(9316d84b0d4aa524183173e9a4519469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7768cc302a883f6c9019f904142da8e8') in 0.045253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Game UI/PNG/match3/load.png
+  artifactKey: Guid(6539bbeb2f36c384b833cc62ac005d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/match3/load.png using Guid(6539bbeb2f36c384b833cc62ac005d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f2ece0be0c661900d35b97e816ac75') in 0.042426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Game UI/PNG/match3/star_2.png
+  artifactKey: Guid(849225af8b1b2294da8e1634a47e77e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/match3/star_2.png using Guid(849225af8b1b2294da8e1634a47e77e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9337f64a402fe4f1c64e3879923f39') in 0.039847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Game UI/PNG/match3/star_1.png
+  artifactKey: Guid(07018a665cfcd01419596080107e33c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/match3/star_1.png using Guid(07018a665cfcd01419596080107e33c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b38aaf50da4c0b38eb8f10614aba28') in 0.041676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Game UI/PNG/match3/pause.png
+  artifactKey: Guid(f359b08ef82509f48a32c2dac2b8d37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/match3/pause.png using Guid(f359b08ef82509f48a32c2dac2b8d37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7535a3423ff74405b71f30ca428d6296') in 0.036344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Game UI/PNG/match3/up.png
+  artifactKey: Guid(cf29ee8b78360e14ba40b82fcbc9b964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/match3/up.png using Guid(cf29ee8b78360e14ba40b82fcbc9b964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399faf513deba3068bac3e1f7947c30e') in 0.041153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Game UI/PNG/match3/down.png
+  artifactKey: Guid(ae069c617ee9f94459b0a58bc9b6c81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/match3/down.png using Guid(ae069c617ee9f94459b0a58bc9b6c81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e71d3495676ab9c053f6f0a89d7d154') in 0.029510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Game UI/PNG/match3/table_2.png
+  artifactKey: Guid(5338b774f0b2371419192ebe5cbb0a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/match3/table_2.png using Guid(5338b774f0b2371419192ebe5cbb0a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5784f36f832b2b66cff54876930123') in 0.040944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Game UI/PNG/match3/moves.png
+  artifactKey: Guid(98cdc86ee6d950c48ba77f199919dcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/match3/moves.png using Guid(98cdc86ee6d950c48ba77f199919dcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd08dea5ea9b34de428f732f8e6286b1') in 0.042110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.450915 seconds.
+  path: Assets/Game UI/PNG/menu/about.png
+  artifactKey: Guid(fc2d25c7a8cbc9b40b6b78debd8edacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/menu/about.png using Guid(fc2d25c7a8cbc9b40b6b78debd8edacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100dc365172a73369cb68955073fcc30') in 0.068911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Game UI/PNG/menu/setting.png
+  artifactKey: Guid(1855e98f57fee81449488b84b04f2e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/menu/setting.png using Guid(1855e98f57fee81449488b84b04f2e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4fadd26505d2f1be9e16a393b6b01b') in 0.048441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/Game UI/PNG/menu/prize.png
+  artifactKey: Guid(5623050343d0baf439c6654e93e6b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/menu/prize.png using Guid(5623050343d0baf439c6654e93e6b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780f0ef6cd8e38554435f0ac6e6aef54') in 0.047110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Game UI/PNG/menu/leader.png
+  artifactKey: Guid(cc73daec572624c4b9eadcb67f4990a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/menu/leader.png using Guid(cc73daec572624c4b9eadcb67f4990a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d4a958d0b25f4a917fd06353a982e1') in 0.041343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Game UI/PNG/menu/logo.png
+  artifactKey: Guid(d2f49cc07bdacb74e8d76f90bfc6c71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/menu/logo.png using Guid(d2f49cc07bdacb74e8d76f90bfc6c71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e273d46a4ab46fba97affe740985ab16') in 0.038248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Game UI/PNG/menu/bg.png
+  artifactKey: Guid(8d31553245aef56488e120d3c8276cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/menu/bg.png using Guid(8d31553245aef56488e120d3c8276cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0070b9b29830e4cb10a66d5d580d1beb') in 0.051825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001185 seconds.
+  path: Assets/Game UI/PNG/menu/play.png
+  artifactKey: Guid(609e1b39987f5654681ba2d3180e9148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/menu/play.png using Guid(609e1b39987f5654681ba2d3180e9148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0342a1e99a4e77e3ffaef7b6a421abbe') in 0.031597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.435173 seconds.
+  path: Assets/Game UI/PNG/pause/bg.png
+  artifactKey: Guid(25253410868c34e4192e7a044090b0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/pause/bg.png using Guid(25253410868c34e4192e7a044090b0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078b0085b71cccd93db8c3ba0a924474') in 0.049955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000625 seconds.
+  path: Assets/Game UI/PNG/pause/table.png
+  artifactKey: Guid(e5f85d79c0f95eb418006869ce682cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/pause/table.png using Guid(e5f85d79c0f95eb418006869ce682cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5a2669b783f1a84662c8afc78c48ad') in 0.042460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Game UI/PNG/pause/text.png
+  artifactKey: Guid(727fa17404829b7449963a6fba422e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/pause/text.png using Guid(727fa17404829b7449963a6fba422e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ddd96ab04c117962e7dd7c94cc862f') in 0.035082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Game UI/PNG/pause/header.png
+  artifactKey: Guid(9714852f8d26aef45aca3bc42c7c96f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/pause/header.png using Guid(9714852f8d26aef45aca3bc42c7c96f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38174221a7ec177584fbe1869034a527') in 0.040035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.646581 seconds.
+  path: Assets/Game UI/PNG/rating/bg.png
+  artifactKey: Guid(b96620eed83689f4cb4d274b29fbbac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/rating/bg.png using Guid(b96620eed83689f4cb4d274b29fbbac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a2356a13b80f4b04379f79932c8cbf') in 0.048113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Game UI/PNG/rating/dot.png
+  artifactKey: Guid(0e63eb2fc1ff4e242bf52f0849d446f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/rating/dot.png using Guid(0e63eb2fc1ff4e242bf52f0849d446f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b172d3d0e54507b6bcc33a09980eace9') in 0.032888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Game UI/PNG/rating/face.png
+  artifactKey: Guid(d3c992b015d43534dbf9f144a9bd96ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/rating/face.png using Guid(d3c992b015d43534dbf9f144a9bd96ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a8029966eded819c97bc3dce13f28d') in 0.035796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Game UI/PNG/rating/btn.png
+  artifactKey: Guid(d8768b0662a26704193c9ad5597c249a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/rating/btn.png using Guid(d8768b0662a26704193c9ad5597c249a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb178e59421ab46b7da4c322f9f0a43') in 0.032813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Game UI/PNG/rating/scroll.png
+  artifactKey: Guid(6a8321c9fdd2fd545a3f26d754e2cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/rating/scroll.png using Guid(6a8321c9fdd2fd545a3f26d754e2cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c40d3ddf75b87ad4d98c804e26afc8c') in 0.036310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Game UI/PNG/rating/header.png
+  artifactKey: Guid(b9619e3584c942740b2b1be34b77d681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/rating/header.png using Guid(b9619e3584c942740b2b1be34b77d681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd172cb9c516dce2441d4b7c212b09701') in 0.042416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Game UI/PNG/rating/table.png
+  artifactKey: Guid(135036e9c0feacb44883541f7f14ea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/rating/table.png using Guid(135036e9c0feacb44883541f7f14ea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f6c3c1042bf58a6789c9568d9a4084') in 0.045549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Game UI/PNG/rating/close_2.png
+  artifactKey: Guid(a9700ebbfa4349a4da8cd955581f0cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/rating/close_2.png using Guid(a9700ebbfa4349a4da8cd955581f0cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a2906f33586070f8938f398ef59bc8') in 0.028932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.670571 seconds.
+  path: Assets/Game UI/PNG/settings/92.png
+  artifactKey: Guid(9ea007e4f76089e48aee6255d183d29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/settings/92.png using Guid(9ea007e4f76089e48aee6255d183d29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a485753f1e1c53308aab624434e7de3f') in 0.049281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Game UI/PNG/settings/94.png
+  artifactKey: Guid(1f2397839f93b104e9b3eb0f1a57eafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/settings/94.png using Guid(1f2397839f93b104e9b3eb0f1a57eafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a5d6bad49f79d1e55e2fa8805048d8') in 0.044327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Game UI/PNG/settings/98.png
+  artifactKey: Guid(5f4de422f12b77347a7268126b391285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/settings/98.png using Guid(5f4de422f12b77347a7268126b391285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af5a080ac08951b1b949d77fbb0a097') in 0.044464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/Game UI/PNG/settings/96.png
+  artifactKey: Guid(165415f78062db14d9143587c46c1913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/settings/96.png using Guid(165415f78062db14d9143587c46c1913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efb3194af2fd9fa10f796d545a9559b') in 0.041424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Game UI/PNG/settings/close_2.png
+  artifactKey: Guid(8fff8d026fe8c6f4cace3d94e6b33198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/settings/close_2.png using Guid(8fff8d026fe8c6f4cace3d94e6b33198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9385da33554b5433d3ec8e4764a7fbd') in 0.029370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Game UI/PNG/settings/93.png
+  artifactKey: Guid(c2996890d5cb7ab43837bbf22f35125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/settings/93.png using Guid(c2996890d5cb7ab43837bbf22f35125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e8265108ccb7c5817a33729ef50a02') in 0.040909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Game UI/PNG/settings/97.png
+  artifactKey: Guid(f76dfa5ed6edc4b42a9301442d01e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/settings/97.png using Guid(f76dfa5ed6edc4b42a9301442d01e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fda79fd40cb3b5015fe66c4b109a7ba') in 0.044012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Game UI/PNG/settings/table.png
+  artifactKey: Guid(a0c617503d48eeb4696b732c0632657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/settings/table.png using Guid(a0c617503d48eeb4696b732c0632657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe36ec16e51ecf2ec60f32ee1e1d32d') in 0.042243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Game UI/PNG/settings/95.png
+  artifactKey: Guid(642ff8452b66fdb43a9ef1c219326168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/settings/95.png using Guid(642ff8452b66fdb43a9ef1c219326168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed296b456ab5fd95c7ac00a775b48fd') in 0.038409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Game UI/PNG/settings/bg.png
+  artifactKey: Guid(d9e59dfc04751d845a00d11b634dd20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/settings/bg.png using Guid(d9e59dfc04751d845a00d11b634dd20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e61954f13957d112f9da41558700754') in 0.044587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.631515 seconds.
+  path: Assets/Game UI/PNG/shop/1.png
+  artifactKey: Guid(5db5f79617a484b4f83d6243d7d253ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/shop/1.png using Guid(5db5f79617a484b4f83d6243d7d253ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997426a52b17d36f87c5694bb5490fd1') in 0.046741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Game UI/PNG/shop/4.png
+  artifactKey: Guid(62b1536d80736c047a29d090675582da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/shop/4.png using Guid(62b1536d80736c047a29d090675582da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5cfa91534c0d01710b3d327368ae2f') in 0.036557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Game UI/PNG/shop/table.png
+  artifactKey: Guid(fd0b8e8ce80b6674eb18103941a97f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/shop/table.png using Guid(fd0b8e8ce80b6674eb18103941a97f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd5764229104138c1f47be86ab98e8c') in 0.023074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Game UI/PNG/shop/bg.png
+  artifactKey: Guid(1101f2bb75e94c041acf604a7f8e4901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/shop/bg.png using Guid(1101f2bb75e94c041acf604a7f8e4901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7a748a5e332743974e94d77d68269b') in 0.026925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Game UI/PNG/shop/btn.png
+  artifactKey: Guid(5cf1db499615ac5478b63d18185e2407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/shop/btn.png using Guid(5cf1db499615ac5478b63d18185e2407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35527814d4b9d11bc1de0de07a574c7') in 0.047026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Game UI/PNG/shop/ico2.png
+  artifactKey: Guid(79af3472e9d466a4c913571cd53ec329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/shop/ico2.png using Guid(79af3472e9d466a4c913571cd53ec329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f141340e62bc2b1d57105731cae4a0') in 0.035931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Game UI/PNG/shop/ico1.png
+  artifactKey: Guid(b694808e3de3a784f808fa67966373b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/shop/ico1.png using Guid(b694808e3de3a784f808fa67966373b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62aa5fe3e469028605a498e3780b07e0') in 0.039617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Game UI/PNG/shop/close_2.png
+  artifactKey: Guid(603a26c865365a54199e957d3fd642e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/shop/close_2.png using Guid(603a26c865365a54199e957d3fd642e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9b28caf25e31e9b80024d88f16b932') in 0.029160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Game UI/PNG/shop/header.png
+  artifactKey: Guid(86960e779ae72214c9d02fb5aac5e9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/shop/header.png using Guid(86960e779ae72214c9d02fb5aac5e9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f611697e2fad4795066dca59b3b967') in 0.044332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Game UI/PNG/shop/2.png
+  artifactKey: Guid(618387fb93de7f74b9fb51b54ec89097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/shop/2.png using Guid(618387fb93de7f74b9fb51b54ec89097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd368a4747f83e200b639ebc87ce8d18b') in 0.039000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Game UI/PNG/shop/3.png
+  artifactKey: Guid(4c3d1e72e54adc947800be1a56460c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/shop/3.png using Guid(4c3d1e72e54adc947800be1a56460c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeea2d5fd17e62aa82547d9f0d851acc') in 0.044471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.553813 seconds.
+  path: Assets/Game UI/PNG/upgrade/a.png
+  artifactKey: Guid(22a7c5f7ad234764ea654821a869194b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/upgrade/a.png using Guid(22a7c5f7ad234764ea654821a869194b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9cd35d41c58de325be8fa0bee07c18') in 0.042838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Game UI/PNG/upgrade/luck.png
+  artifactKey: Guid(ff5534b19bbf272478ec1e906536a17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/upgrade/luck.png using Guid(ff5534b19bbf272478ec1e906536a17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c20c7494bfb75e8ac09afe71dc0a8db') in 0.040488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Game UI/PNG/upgrade/time.png
+  artifactKey: Guid(9d7dafaffafe1ab428235fb04b749bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/upgrade/time.png using Guid(9d7dafaffafe1ab428235fb04b749bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cf6520fbafd9b5a4603a651d88d38d') in 0.037489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Game UI/PNG/upgrade/heart.png
+  artifactKey: Guid(977b0c8e64aa4604da53500607e1bb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/upgrade/heart.png using Guid(977b0c8e64aa4604da53500607e1bb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2b27bde5380fa90449794bfe3f5d04') in 0.039267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Game UI/PNG/upgrade/b.png
+  artifactKey: Guid(68a638eda642d7140baa6b8b66b74409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/upgrade/b.png using Guid(68a638eda642d7140baa6b8b66b74409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2135be2159173a02d7002dfe1e9bdf') in 0.035839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Game UI/PNG/upgrade/close_2.png
+  artifactKey: Guid(ac99ac9153503214a85c4baaa06d4945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/upgrade/close_2.png using Guid(ac99ac9153503214a85c4baaa06d4945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa611b035a546e97a186b5bb13d3168c') in 0.025030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Game UI/PNG/upgrade/dot.png
+  artifactKey: Guid(462361f0d786c5d4babfa8e44079ec0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/upgrade/dot.png using Guid(462361f0d786c5d4babfa8e44079ec0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80dd74ebec83e8f59629b30a52e3232f') in 0.018773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Game UI/PNG/upgrade/bg.png
+  artifactKey: Guid(0245523c66a46f04f99ed6a50a5045e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/upgrade/bg.png using Guid(0245523c66a46f04f99ed6a50a5045e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9dff5e2418e3154ac734abe3e00c09') in 0.029755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Game UI/PNG/upgrade/scroll.png
+  artifactKey: Guid(f7df1e966685e2d45b63892f4dd6460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/upgrade/scroll.png using Guid(f7df1e966685e2d45b63892f4dd6460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680a97ba9c40ca6a908e0a2f6db0da24') in 0.016889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Game UI/PNG/upgrade/table.png
+  artifactKey: Guid(6f062157f9ae9b5429b298be3b0209f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/upgrade/table.png using Guid(6f062157f9ae9b5429b298be3b0209f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37ce1fc9745007496362fbdcb02898d') in 0.039401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Game UI/PNG/upgrade/btn.png
+  artifactKey: Guid(afe43778e2bd5d042803d75099badfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/upgrade/btn.png using Guid(afe43778e2bd5d042803d75099badfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c9d2e96002e38b3dc6a5b06bef79a5') in 0.067147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Game UI/PNG/upgrade/star.png
+  artifactKey: Guid(68629c62af1310045a478d1c494313a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/upgrade/star.png using Guid(68629c62af1310045a478d1c494313a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9a956f92f685250a7565a7764ee7fe') in 0.036459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Game UI/PNG/upgrade/header.png
+  artifactKey: Guid(dc017fece4c271442977869f4ff5d0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/upgrade/header.png using Guid(dc017fece4c271442977869f4ff5d0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec79b7a86015750af797e9f8fe72db30') in 0.039564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.146681 seconds.
+  path: Assets/Game UI/PNG/you_lose/bg.png
+  artifactKey: Guid(187557cfce43ec84daf7eb82fb19e383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/you_lose/bg.png using Guid(187557cfce43ec84daf7eb82fb19e383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b78642fffdcb864ab457319343310dd') in 0.028287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Game UI/PNG/you_lose/star_4.png
+  artifactKey: Guid(76e4ccb753fb5bf448b7dc4a7ea40ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/you_lose/star_4.png using Guid(76e4ccb753fb5bf448b7dc4a7ea40ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a31beae63d994d0cc6e7008b6513f2f') in 0.042057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Game UI/PNG/you_lose/header.png
+  artifactKey: Guid(94f6828b4f05d224db0c1eb00cd66eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/you_lose/header.png using Guid(94f6828b4f05d224db0c1eb00cd66eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c0da404d50e225543d08c20f4f9319') in 0.038720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Game UI/PNG/you_lose/table.png
+  artifactKey: Guid(524c5183ff42c0d45b31a60d67664376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/you_lose/table.png using Guid(524c5183ff42c0d45b31a60d67664376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285a0e01b6cd7dc73cb11e852dd9c150') in 0.013296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.373959 seconds.
+  path: Assets/Game UI/PNG/you_win/bg.png
+  artifactKey: Guid(f93eb460f9f14ee4f8fb5ec55b9cd3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/you_win/bg.png using Guid(f93eb460f9f14ee4f8fb5ec55b9cd3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd185a23626983a81f966d8efac8bba99') in 0.034230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Game UI/PNG/you_win/star_3.png
+  artifactKey: Guid(9282a297f47a77d4d93126fd22723b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/you_win/star_3.png using Guid(9282a297f47a77d4d93126fd22723b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f237cb85d625cf3dfdebe422971a1f') in 0.044015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Game UI/PNG/you_win/table.png
+  artifactKey: Guid(2ac26ac1176192246915125ad6cf4784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/you_win/table.png using Guid(2ac26ac1176192246915125ad6cf4784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9250ed35dd6af9989afd9dc6754eb6fb') in 0.026804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Game UI/PNG/you_win/star_2.png
+  artifactKey: Guid(fe9f8835862966d44acab8a3de4aed2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/you_win/star_2.png using Guid(fe9f8835862966d44acab8a3de4aed2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824057e41f3c124f013e0be410366a35') in 0.035995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Game UI/PNG/you_win/star_1.png
+  artifactKey: Guid(c25585127445bb24c85e7eb8b6b041d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/you_win/star_1.png using Guid(c25585127445bb24c85e7eb8b6b041d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8aa975a13ecc79ba7e78745797bdb78') in 0.037359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Game UI/PNG/you_win/star_4.png
+  artifactKey: Guid(e9d9ac3756567d1499cebd3f29c89234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/you_win/star_4.png using Guid(e9d9ac3756567d1499cebd3f29c89234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3332171a800c8f700734be9cb67361') in 0.021730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Game UI/PNG/you_win/header.png
+  artifactKey: Guid(91817447bc052b84a87651cd691c8c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game UI/PNG/you_win/header.png using Guid(91817447bc052b84a87651cd691c8c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc4fa5d83bb02686262eef48f2984c1') in 0.032147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 607.965932 seconds.
+  path: Assets/Enemy/png/1/Attack3/1_terrorist_1_Attack3_000.png
+  artifactKey: Guid(103293e8e9d496c448436902d0827976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/png/1/Attack3/1_terrorist_1_Attack3_000.png using Guid(103293e8e9d496c448436902d0827976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7bf96b4bf0ef4722d0dff22555e92d') in 0.026418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Enemy/png/1/Attack3/1_terrorist_1_Attack3_003.png
+  artifactKey: Guid(44d60fc17c64f8347b5e7a20852101a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/png/1/Attack3/1_terrorist_1_Attack3_003.png using Guid(44d60fc17c64f8347b5e7a20852101a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd1dfd7581d2398178a6dcdd9b3c8c9') in 0.031158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Enemy/png/1/Attack3/1_terrorist_1_Attack3_004.png
+  artifactKey: Guid(1eca50f6c83a3494fb2b4c7e20f19bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/png/1/Attack3/1_terrorist_1_Attack3_004.png using Guid(1eca50f6c83a3494fb2b4c7e20f19bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d73aab1bb9f8205b1a14e631f46652') in 0.033279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Enemy/png/1/Attack3/1_terrorist_1_Attack3_002.png
+  artifactKey: Guid(bd2c25bbe82f1cc4688e1d5590ebe162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/png/1/Attack3/1_terrorist_1_Attack3_002.png using Guid(bd2c25bbe82f1cc4688e1d5590ebe162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1689907ede83836d89dc4022e6171a4b') in 0.034202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Enemy/png/1/Attack3/1_terrorist_1_Attack3_005.png
+  artifactKey: Guid(c3965f49bbfb48a4780254a28f75e08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/png/1/Attack3/1_terrorist_1_Attack3_005.png using Guid(c3965f49bbfb48a4780254a28f75e08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278afbbfb1445c50e11c78708a73d453') in 0.030711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Enemy/png/1/Attack3/1_terrorist_1_Attack3_001.png
+  artifactKey: Guid(9604d7c5741240f49bc9a67993f90a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/png/1/Attack3/1_terrorist_1_Attack3_001.png using Guid(9604d7c5741240f49bc9a67993f90a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedcfed1a08e1ada28fc9d96bb97243a') in 0.035580 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
